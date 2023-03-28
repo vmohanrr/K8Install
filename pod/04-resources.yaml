@@ -4,6 +4,7 @@ metadata:
   name: stress
 spec:
   containers:
-    - name: stress
-      image: ramamohanrr/stress
+    - image: ramamohanrr/stress
+      name: stress
       imagePullPolicy: Always
+      
